@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Doğum Günü Pastası</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Birthday cake</h1>
+        <input type="number" id="candleCount" placeholder="ENTER YOUR AGE"  min="1" max="100" />
+        <button onclick="createCandle()">Click</button>
+        
+      </div>
+      <div class="kapsama">
+        <div class="cake" id="cake">
+          <!-- Mumlar buraya eklenecek -->
+          <div class="plate"></div>
+          <div class="layer layer-bottom"></div>
+          <div class="layer layer-middle"></div>
+          <div class="layer layer-top"></div>
+          <div class="icing"></div>
+          <div class="drip drip1"></div>
+          <div class="drip drip2"></div>
+          <div class="drip drip3"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>
